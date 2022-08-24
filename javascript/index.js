@@ -19,7 +19,7 @@ const textarea = document.querySelector ("#area");
 const textarea2 = document.querySelector ("#area2");
 
 const botao1 = document.querySelector ("[data-criptografia]");
-console.log(botao1);
+
 botao1.addEventListener("click", event => {
     event.preventDefault();
     
@@ -27,7 +27,7 @@ botao1.addEventListener("click", event => {
 });
 
 const botao2 = document.querySelector ("[data-descriptografia]");
-console.log(botao2);
+
 botao2.addEventListener("click", event => {
     event.preventDefault();
 
@@ -54,7 +54,7 @@ function pegaEvento() {
 
     const desvenda = codigo.replace(/enter|ai|imes|ober|ufat/g, function (troca) {
 
-        console.log(troca)
+        
 
         return palavras[troca]});
 
@@ -70,7 +70,7 @@ function pegaEvento() {
 
 
 const botaoCopia = document.querySelector ("#alternativo");
-console.log(botaoCopia);
+
 botaoCopia.addEventListener("click", event => {
     event.preventDefault();
 
